@@ -1,0 +1,40 @@
+{
+  "name": "redis-stack-charge_request_redis-lambda-fn-1706741a-398a-4153-98b8-36d8a9e823b2",
+  "version": "1.0.0",
+  "description": "redis-stach-charge-request",
+  "main": "index.js",
+  "dependencies": {
+    "connection-parse": "^0.0.7",
+    "denque": "^1.5.0",
+    "hashring": "^3.2.0",
+    "jackpot": "^0.0.6",
+    "memcached": "^2.2.2",
+    "redis": "^3.0.2",
+    "redis-commands": "^1.7.0",
+    "redis-errors": "^1.2.0",
+    "redis-parser": "^3.0.0",
+    "retry": "^0.6.0",
+    "simple-lru-cache": "^0.0.2"
+  },
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node index.js",
+    "test": "mocha --timeout 20000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/aquibsayyed9/redis-stack-charge"
+  },
+  "keywords": [
+    "redis",
+    "stack",
+    "charge"
+  ],
+  "author": "aquib",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "sinon": "^15.1.2",
+    "sinon-chai": "^3.7.0"
+  }
+}
